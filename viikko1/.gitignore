@@ -1,2 +1,6 @@
-# ignore dir __pycache__
+# ignore dirs __pycache__, .pytest_cache, and htmlcov
 __pycache__/
+.pytest_cache/
+htmlcov/
+# ignore .coverage
+.coverage
