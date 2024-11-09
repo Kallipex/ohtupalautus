@@ -1,4 +1,5 @@
-# ignore dirs __pycache__, .pytest_cache, and htmlcov
+# ignore dirs .venv, __pycache__, .pytest_cache, and htmlcov
+.venv/
 __pycache__/
 .pytest_cache/
 htmlcov/
