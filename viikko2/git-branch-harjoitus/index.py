@@ -14,5 +14,5 @@ print(f"{x} * {y} = {tulo(x, y)}")
 print(f"{x} / {y} = {osamaara(x, y)}")
 
 logger("lopetetaan")
-print("goodbye!")
+print("goodbye!") # ipsum lorem
 # lorem ipsum
