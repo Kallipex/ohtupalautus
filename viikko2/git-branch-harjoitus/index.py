@@ -15,3 +15,4 @@ print(f"{x} / {y} = {osamaara(x, y)}")
 
 logger("lopetetaan")
 print("goodbye!")
+# lorem ipsum
