@@ -9,13 +9,15 @@ def main():
 
     for player_dict in response:
         player = Player(player_dict)
-        players.append(player)
-
-    print(f"Players from FIN:\n")
-
-    for player in players:
         if player.nationality == 'FIN':
-            print(player)
+            players.append(player)
+
+    players_sorted = sorted(players, key=lambda x: x.points, reverse=True)
+
+    print("Players from FIN:\n")
+
+    for player in players_sorted:
+        print(player)
 
 if __name__ == "__main__":
     main()
