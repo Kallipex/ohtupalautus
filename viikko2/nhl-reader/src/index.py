@@ -1,14 +1,10 @@
-from player_stats import PlayerReader
-from player_stats import PlayerStats
+from player_table import PlayerTable
 
 def main():
-    url = "https://studies.cs.helsinki.fi/nhlstats/2023-24/players"
-    reader = PlayerReader(url)
-    stats = PlayerStats(reader)
-    players = stats.top_scorers_by_nationality("FIN")
+    print("NHL statistics by nationality\n")
 
-    for player in players:
-        print(player)
+    program = PlayerTable()
+    program.looper()
 
 if __name__ == "__main__":
     main()
