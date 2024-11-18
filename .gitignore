@@ -1,0 +1,7 @@
+# ignore dirs .venv, __pycache__, .pytest_cache, and htmlcov
+.venv/
+__pycache__/
+.pytest_cache/
+htmlcov/
+# ignore .coverage
+.coverage
